@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>portfolio AK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+ <script src="https://kit.fontawesome.com/a29d6a98bb.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <div id="header">
+    <div class="imformation"> 
+        <nav> 
+            <h1>ASHWAJIT</h1>
+            <ul id="sidemenu">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Service</a> </li>
+                <li><a href="#">Work</a> </li>
+                <li><a href="#">Contact me</a> </li>
+                <i class="fa-solid fa-xmark" style="color: white;" onclick="colsemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color:white" onclick="openmenu()"></i>
+        </nav>
+      <div class="header-text">
+        <p class="name-hello"> Hello, I'm</p>
+        <h1 class="name">ASHWAJIT KOKARE</h1>
+        <h2 class="skill-text"> a <span class="text"></span></h2> 
+    </div>
+    </div>
+</div>
+ 
+
+<!-------------------------------------------------About----------------------------->
+
+
+
+ <div id="about">
+  <div class="container">
+ <div class="row">
+<div class="about-col-1">
+    <img src="profile.png">
+</div>
+
+<div class="about-col-2">
+
+    <h1 class="sub-titleme">About Me</h1>
+    <p class="webdetail"> "Hi, my name is Ashwajit Kokare, and I'm a web developer. 
+      I specialize in designing and<br> developing websites and web applications using 
+      HTML, CSS, JavaScript, and various frameworks and tools. 
+     <br> I have experience working with clients to understand their requirements and 
+     translating them into technical specifications, 
+      <br>and I'm constantly staying up-to-date with the latest industry trends and best practices.
+      <br>I'm passionate about creating websites that are both visually appealing and highly functional,
+      <br>and I'm always looking for new challenges to help me grow as a developer."</p>
+
+      <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+      <p class="tab-links"onclick="opentab('education')"> Education</p>
+      <p class="tab-links"onclick="opentab('experience')"> Experience</p>
+      </div>
+
+      <div class="tab-contents active-tab" id="skills">
+
+      <ul class="skills-tab">
+        <li><span>Web Development</span><br>Web Site Designing </li>
+        <li><span>Game Development</span><br>2D/3D Game Design </li>
+        <li><span>Android Development</span><br>Building Android/ios apps </li>
+      </ul>
+
+      </div>
+
+      <div class="tab-contents" id="education">
+        <ul class="education-tab">
+          <li><span>2021</span><br>Web Site Design at Info-Bright</li>
+          <li><span>2022</span><br>2D/3D Game Design at Udemy </li>
+          <li><span>2022</span><br>Building Android/ios apps at Udacity</li>
+        </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul class="experience-tab">
+            <li><span>2021-2022</span><br>Web Site Design at Freelancer </li>
+            <li><span>2022-2023</span><br>2D/3D Game Design at Unity Engine </li>
+            <li><span>2022-2023</span><br>Building Android/ios apps at Reactive Native</li>
+          </ul>
+            </div>
+
+          </div>
+
+      </div>
+
+   </div>
+
+</div>
+
+<!---------------------------------------services--------------------------------------->
+
+
+
+<div id="services">
+  <div class="container">
+<h1 class="sub-title"> My Services</h1>
+<div class="services-list">
+<div>
+  <i class="fa-solid fa-code"></i>
+<h2> Web Designer</h2>
+<P> Responsive web design: I create responsive websites that adapt to different screen sizes and devices,
+  ensuring that your website looks and works great on desktops, tablets, and smartphones.</P>
+<a href="#"> Learn more</a>
+</div>
+
+<div>
+  <i class="fa-solid fa-gamepad" style="color:white;"></i>
+  <h2> Game Designer</h2>
+  <P> Game development: I specialize in developing innovative game concepts that cater to your 
+    target audience and align with your business goals. I work closely with you to understand your vision 
+    and create a game that stands out in the crowded gaming market.</P>
+  <a href="#"> Learn more</a>
+  </div>
+
+  <div>
+    <i class="fa-brands fa-app-store-ios" style="color: white;"></i>
+    <h2> App Building ios/andriod </h2>
+    <P> Android app development: I specialize in creating custom Android apps that cater to your business needs
+       and requirements. Whether you need a simple utility app or a complex enterprise application,
+       I can create an app that delivers the functionality and user experience you need.</P>
+    <a href="#"> Learn more</a>
+                </div>
+          </div>
+    </div>  
+ </div>
+
+<!---------------------------------WORK------------------------------->
+
+<div id="work"> 
+<div class="container">
+  <h1 class="sub-title"> My Work</h1>
+   <div class="work-list">
+<div class="work" style="width: 300px;">
+  <img src="work1.jpg">
+  <div class="layer">
+    <h3>Lucifer Web Site</h3>
+    <p>This website is made for sneaker head who love sneaker,
+     unique design,best quality,durable,go and check the LuciferShoe.com </p>
+     <a href="#"><i class="fa-solid fa-link"></i> </a>
+  </div>
+</div>
+<div class="work" style="width: 300px; height: 450px;">
+  <img src="work2.jpg">
+  <div class="layer">
+    <h3>Agent Hercules Game</h3>
+    <p> Hercules is known for his arrogance, self-obsessiveness, carelessness towards others, and large ego. 
+      He works as a hero for glory and praise, not for helping others.go and check on playstore </p>
+     <a href="#"><i class="fa-solid fa-link"></i></a>
+  </div>
+</div>
+<div class="work" style="height: 450px; width: 300px;">
+  <img src="work3.jpeg">
+  <div class="layer">
+    <h3>Stuck Image App</h3>
+    <p>This app share emotion from image,hight quality image,<br>all size image,also add our image,
+    Removal of unwanted elements,and many more features.go and check on playstore </p>
+     <a href="#"><i class="fa-solid fa-link"></i></a>
+  </div>
+</div>
+
+   </div>
+   <a href="#" class="btn">See more</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div id="contact-me">
+<div class="container-contact">
+<div class="row">
+ <!-- <div class="contact-left">
+   <h1 class="sub-title">Contact Me</h1>
+   <p><i class="fa-solid fa-paper-plane"></i> kokareashu@gmail.com</p>
+   <div class="social-media">
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>  
+  </div>-->
+
+  <div class="contact-right">
+    <h1 class="sub-title">Contact Me </h1>
+    <form>
+     <input type="text" id="firstName" placeholder="First Name" required>
+     <input type="text" id="lastName" placeholder="Last Name" required>
+     <input type="email" id="email" placeholder="Email" required>
+     <input type="mobile" id="mobile" placeholder="Mobile" required>
+     <h4> Type Your Message Here...</h4>
+     <textarea required></textarea>
+     <input type="submit" value="Submit" id="button">
+
+    </form>
+    <div class="social-media">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>  
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+<footer id="footer">
+
+  <p>© Copyright ASHWAJIT</p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('.text', {
+      strings: ['WEB DEVELOPER..', 'GAME DEVELOPER..','ANDROID DEVELOPER..'],
+      typeSpeed:100,
+      backspeed:100,
+      backDelay:1000,
+      loop:true
+    });
+  </script>
+
+
+<script> 
+      
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+           tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+      }
+
+</script>
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+       sidemenu.style.right = "0";
+    
+}
+
+function colsemenu(){
+  sidemenu.style.right = "-280px"
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
