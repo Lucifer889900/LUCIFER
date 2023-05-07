@@ -1,5 +1,6 @@
 body{
     background-color:black;
+    overflow-x: hidden;
 }
 
  h1{
@@ -359,6 +360,10 @@ padding-inline-start:0;
 
 /* -------------------CONTACT ME--------------- */
 
+
+#contact-me{
+    overflow-x: hidden;
+}
 .contact-left{
     flex-basis: 60%;
 
@@ -521,7 +526,6 @@ nav .fa-solid{
     body{
         margin: 0;
         width: 100%;
-        height: 100vh;
     }
 
         
